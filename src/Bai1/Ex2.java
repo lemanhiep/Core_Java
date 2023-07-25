@@ -1,11 +1,15 @@
 package Bai1;
+
 import java.util.Scanner;
+
 /**
  * @author: lemanhiep
  * @date: 25/07/2023
  **/
 public class Ex2 {
+    //    Tìm ước chung lớn nhất, BCNN của 2 số được nhập vào từ bàn phím.
     private static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         System.out.print("Nhập số a = ");
         int a = sc.nextInt();
@@ -18,6 +22,7 @@ public class Ex2 {
         System.out.println("BSCNN của " + a + " và " + b
                 + " là: " + BSCNN(a, b));
     }
+
     public static int USCLN(int a, int b) {
         int temp1 = a;
         int temp2 = b;
@@ -31,6 +36,7 @@ public class Ex2 {
         int uscln = temp1;
         return uscln;
     }
+
     public static int BSCNN(int a, int b) {
         return (a * b) / USCLN(a, b);
     }

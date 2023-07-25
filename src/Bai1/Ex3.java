@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @date: 25/07/2023
  **/
 public class Ex3 {
+    //    Kiểm tra 1 số có là số nguyên tố hay không?
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
